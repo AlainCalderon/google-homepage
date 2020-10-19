@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+   flex-basis: 100%;
+    font-size: 1rem;
+    height: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    margin:1rem;
+    color:black;   
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{  
+    height:80%;
+    flex-basis: 100%;
+    padding-top: .5rem;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google{
+    width:15%;
+    height:30%;
+}
+
+.search-cont{
+    width:35rem;
+    height:3rem;
+    position: relative;
+    border-radius:20px;
+    border:1px solid  rgba(207, 203, 203, 0.9);
+}
+
+.icon{
+    width:1rem;
+    height: 1rem;
+    margin-top:1rem;
+    margin-left:1rem;
+}
+#search-bar{
+    padding:0;
+    border:0;
+    width:80%;
+    margin-top:-.5rem;
+    margin-left:.5rem;
+    outline-color: rgba(235, 235, 235, 0.37);;
+    
+}
+#search-bar:focus{
+    outline-width: 0;
+}
+
+
+.main-btn{
+    border-radius:4px;
+    width:10rem;
+    height: 2.5rem;
+    background: rgba(235, 235, 235, 0.37);
+    margin-left: 1rem;
+    border-style: none;
+
+}
+.main-btn:hover{
+    outline-width: 1px;
+    outline-style: solid;
+    outline-color: grey;
+    border-radius: 4px;
+    box-shadow: 0 0 3px grey;
+}
+.btn-cont{
+    display: flex;
+    width:100%;
+    margin:2rem;
+    justify-content: center;
+}
+
+footer{
+    font-size: 1rem;
+    display:flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    height:10%;
+    background-color: rgba(236, 235, 235, 0.829);
+    justify-content: flex-start;
+}
+.cunt-link{
+    color:black;
+    flex-basis:100%;
+    border-bottom: solid 1px rgb(177, 175, 175);
+    text-decoration: none;
+    margin: .5rem;
+    padding:.5rem;
+}
+.left-div{
+flex-basis: 50%;
+display: flex;
+
+}
+
+.right-div{
+flex-basis: 50%;
+display: flex;
+justify-content: flex-end;
+}
+
+.left-link{
+    color:black;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.right-link{
+    color:black;
+    margin:.5rem;
+    text-decoration: none;
+    
+}
